@@ -1,0 +1,98 @@
+CRYST1   84.997   37.032   48.991  90.00 105.55  90.00 C 1 2 1       1
+HETATM    1  C1  TOP A1160       7.080  -4.293  14.719  1.00  8.49           C  
+ANISOU    1  C1  TOP A1160      948    988   1289     73   -140   -129       C  
+HETATM    2  N2  TOP A1160       6.001  -3.879  14.078  1.00  8.05           N  
+ANISOU    2  N2  TOP A1160     1144    711   1205     95     -3     67       N  
+HETATM    3  C3  TOP A1160       6.067  -2.876  13.241  1.00  6.70           C  
+ANISOU    3  C3  TOP A1160      794    702   1048      8     81   -102       C  
+HETATM    4  N4  TOP A1160       4.979  -2.524  12.584  1.00  8.06           N  
+ANISOU    4  N4  TOP A1160     1183    803   1074      4    -43   -124       N  
+HETATM    5  N5  TOP A1160       7.192  -2.228  13.072  1.00  7.70           N  
+ANISOU    5  N5  TOP A1160      659   1069   1194    160    172    -52       N  
+HETATM    6  C6  TOP A1160       8.280  -2.507  13.714  1.00  7.66           C  
+ANISOU    6  C6  TOP A1160      807   1004   1098    202    142    -95       C  
+HETATM    7  N7  TOP A1160       9.395  -1.817  13.562  1.00  8.76           N  
+ANISOU    7  N7  TOP A1160      907    995   1425     71     97     28       N  
+HETATM    8  C8  TOP A1160       8.259  -3.650  14.616  1.00  9.90           C  
+ANISOU    8  C8  TOP A1160     1074   1249   1438     63     36     27       C  
+HETATM    9  C9 ATOP A1160       9.535  -4.047  15.340  0.50 11.27           C  
+ANISOU    9  C9 ATOP A1160     1156   1506   1620     52    -96    167       C  
+HETATM   10  C9 BTOP A1160       9.534  -4.048  15.340  0.50 11.53           C  
+ANISOU   10  C9 BTOP A1160     1162   1523   1693     85    -54    195       C  
+HETATM   11  C10ATOP A1160       9.549  -5.296  16.212  0.50 12.47           C  
+ANISOU   11  C10ATOP A1160     1209   1588   1939     61     97    241       C  
+HETATM   12  C10BTOP A1160       9.549  -5.297  16.213  0.50 12.65           C  
+ANISOU   12  C10BTOP A1160     1240   1649   1916     72    102    285       C  
+HETATM   13  C11ATOP A1160       9.803  -5.198  17.571  0.50 14.12           C  
+ANISOU   13  C11ATOP A1160     1369   1894   2100     88    -18    295       C  
+HETATM   14  C11BTOP A1160       9.802  -5.199  17.571  0.50 13.55           C  
+ANISOU   14  C11BTOP A1160     1403   1733   2009     68     13    237       C  
+HETATM   15  C12ATOP A1160       9.828  -6.363  18.391  0.50 14.53           C  
+ANISOU   15  C12ATOP A1160     1504   1997   2019     47      7    170       C  
+HETATM   16  C12BTOP A1160       9.828  -6.365  18.393  0.50 15.76           C  
+ANISOU   16  C12BTOP A1160     1692   2192   2101     13     16    263       C  
+HETATM   17  O13ATOP A1160      10.077  -6.316  19.721  0.50 15.98           O  
+ANISOU   17  O13ATOP A1160     1855   2164   2052    185    -11    523       O  
+HETATM   18  O13BTOP A1160      10.077  -6.315  19.722  0.50 15.16           O  
+ANISOU   18  O13BTOP A1160     1949   1831   1978     75    -40    330       O  
+HETATM   19  C14 TOP A1160      10.438  -5.192  20.375  1.00 17.85           C  
+ANISOU   19  C14 TOP A1160     2234   2410   2138   -113    -50    433       C  
+HETATM   20  C15ATOP A1160       9.553  -7.516  17.815  0.50 14.38           C  
+ANISOU   20  C15ATOP A1160     1411   1820   2233    166    -88    468       C  
+HETATM   21  C15BTOP A1160       9.555  -7.521  17.820  0.50 13.37           C  
+ANISOU   21  C15BTOP A1160     1335   1620   2125    263     -4    331       C  
+HETATM   22  O16ATOP A1160       9.490  -8.678  18.509  0.50 14.97           O  
+ANISOU   22  O16ATOP A1160     1548   1730   2409   -166   -140    537       O  
+HETATM   23  O16BTOP A1160       9.493  -8.684  18.519  0.50 13.59           O  
+ANISOU   23  O16BTOP A1160     1249   1895   2017    106    -11    476       O  
+HETATM   24  C17ATOP A1160       8.400  -9.567  18.270  0.50 16.43           C  
+ANISOU   24  C17ATOP A1160     1852   2062   2326     50    177    294       C  
+HETATM   25  C17BTOP A1160      10.600  -9.167  19.293  0.50 14.52           C  
+ANISOU   25  C17BTOP A1160     1179   1804   2531    258    -63    134       C  
+HETATM   26  C18ATOP A1160       9.298  -7.626  16.500  0.50 13.19           C  
+ANISOU   26  C18ATOP A1160     1217   1614   2179     -9    111    199       C  
+HETATM   27  C18BTOP A1160       9.299  -7.627  16.503  0.50 12.84           C  
+ANISOU   27  C18BTOP A1160     1193   1708   1976     58     56    275       C  
+HETATM   28  O19ATOP A1160       9.055  -8.804  15.985  0.50 14.52           O  
+ANISOU   28  O19ATOP A1160     1642   1612   2261    238      3    328       O  
+HETATM   29  O19BTOP A1160       9.056  -8.804  15.986  0.50 14.68           O  
+ANISOU   29  O19BTOP A1160     1609   1621   2348    254     50    260       O  
+HETATM   30  C20 TOP A1160       9.034  -9.090  14.643  1.00 12.80           C  
+ANISOU   30  C20 TOP A1160     1669    978   2214    150      9    126       C  
+HETATM   31  C21ATOP A1160       9.305  -6.500  15.668  0.50 12.24           C  
+ANISOU   31  C21ATOP A1160     1131   1633   1885    164     91    352       C  
+HETATM   32  C21BTOP A1160       9.305  -6.502  15.670  0.50 12.53           C  
+ANISOU   32  C21BTOP A1160     1166   1644   1948    143     66    336       C  
+CONECT    1    2    8
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7    8
+CONECT    7    6
+CONECT    8    1    6    9   10
+CONECT    9    8   11
+CONECT   10    8   12
+CONECT   11    9   13   31
+CONECT   12   10   14   32
+CONECT   13   11   15
+CONECT   14   12   16
+CONECT   15   13   17   20
+CONECT   16   14   18   21
+CONECT   17   15   19
+CONECT   18   16   19
+CONECT   19   17   18
+CONECT   20   15   22   26
+CONECT   21   16   23   27
+CONECT   22   20   24
+CONECT   23   21   25
+CONECT   24   22
+CONECT   25   23
+CONECT   26   20   28   31
+CONECT   27   21   29   32
+CONECT   28   26   30
+CONECT   29   27   30
+CONECT   30   28   29
+CONECT   31   11   26
+CONECT   32   12   27
+END
