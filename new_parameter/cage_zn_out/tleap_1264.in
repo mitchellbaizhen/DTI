@@ -1,0 +1,38 @@
+# --------------------
+# Load force fields
+# --------------------
+source leaprc.gaff2          # GAFF2 is better for chelators
+source leaprc.water.spce     # SPC/E water
+loadamberparams frcmod.ions234lm_1264_spce   # Zn2+ 12-6-4 params
+loadamberparams frcmod.spce                  # SPC/E parameters
+
+# --------------------
+# Load NOTA chelator
+# --------------------
+loadamberparams nota_cage.frcmod   # your custom parameters
+NOT = loadmol2 nota_cage.mol2     # mol2 contains charges + types
+
+# --------------------
+# If your PDB has Zn2+ inside NOTA, load it
+# --------------------
+mol = loadpdb nota_zn_pymol.pdb
+
+# --------------------
+# Solvate
+# --------------------
+solvatebox mol SPCBOX 30.0
+
+# --------------------
+# Neutralize
+# (If NOTA is -3, system total charge = -3 + Zn2+ = -1 → add 1 Na+)
+# --------------------
+addionsrand mol Na+ 0
+
+# --------------------
+# Output
+# --------------------
+savepdb mol nota_zn_solv.pdb
+saveamberparm mol nota_zn_solv.prmtop nota_zn_solv.inpcrd
+
+quit
+

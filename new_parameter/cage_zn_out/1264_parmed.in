@@ -1,0 +1,4 @@
+add12_6_4 :ZN watermodel SPCE
+printLJMatrix :ZN           # Verify C4 terms
+setOverwrite True
+outparm nota_zn_solv_1264.prmtop nota_zn_solv.inpcrd

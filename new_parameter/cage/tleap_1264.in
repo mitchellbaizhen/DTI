@@ -1,0 +1,46 @@
+# --- load force fields ---
+source leaprc.gaff
+source leaprc.water.opc
+
+# --- load your molecule parameters and structure ---
+loadamberparams nota_cage.frcmod
+mol = loadMol2 nota_cage.mol2       # load topology + atom types from your mol2
+# optionally read coordinates from the PDB if you prefer:
+# pdb = loadPDB nota_cage.pdb
+
+# --- center / create a unit (ensure it has coordinates) ---
+# If you loaded coords from the PDB, use that unit (replace 'mol' below with pdb if needed)
+# make sure 'mol' has coordinates (mol2 usually does — check with 'show mol' below)
+
+# --- put the solute in a cubic water box of edge length 30.0 Å (3.0 nm) ---
+# Two approaches are provided below. Use one and comment out the other.
+
+# Approach A — create a water box with a given buffer (typical):
+# This creates a solvent box with at least 10.0 Å buffer around the solute.
+# If you want an explicit buffer (e.g. 10 Å) use this:
+# solvateBox mol OPCBOX 10.0
+
+# Approach B — try to set a cubic box of fixed side length 30.0 Å:
+# (tleap syntax can vary by Amber version; if setBox works in your build, this sets box vectors)
+
+# If setBox above errors in your tleap, comment it out and use solvateBox approach instead.
+# After setting box, add water explicitly:
+
+# --- neutralize with Na+ (add as many Na+ as needed to neutralize) ---
+
+# optionally add a small salt concentration, e.g. 0.15 M NaCl:
+# addionsRand mol Na+ 4
+# addionsRand mol Cl- 4
+
+# --- checks and output ---
+
+solvatebox mol SPCBOX 30.0
+
+# Neutralize (if NOTA is charged, e.g., -3)
+addionsrand mol Na+ 0           # Adjust based on total charge
+
+# Save files
+savepdb mol nota_zn_solv.pdb
+saveamberparm mol nota_zn_solv.prmtop nota_zn_solv.inpcrd
+quit
+
