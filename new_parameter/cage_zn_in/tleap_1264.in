@@ -15,7 +15,7 @@ NOT = loadmol2 nota_cage.mol2     # mol2 contains charges + types
 # --------------------
 # If your PDB has Zn2+ inside NOTA, load it
 # --------------------
-mol = loadpdb nota_zn_pymol.pdb
+mol = loadpdb input.pdb
 
 # --------------------
 # Solvate
