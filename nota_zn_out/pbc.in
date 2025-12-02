@@ -1,0 +1,16 @@
+parm test_nota.pdb
+trajin traj_merged_nowat_nopbc.dcd
+
+# Re-image the main molecule (NOTA) to keep it whole
+autoimage anchor :NOT
+
+# Optional: center NOTA in box
+center :NOT mass origin
+
+# Optional: fix rotations for visualization
+image origin center familiar
+
+trajout traj_pbc_fixed.dcd
+
+run
+
